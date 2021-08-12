@@ -107,6 +107,7 @@ const Pad=({clip,volume,currentPlaying})=>{
         return ()=>{
             document.removeEventListener('keydown',handleKeypress)
         }
+        // eslint-disable-next-line
     },[])
 
     const handleKeypress = (e)=>{
